@@ -432,7 +432,7 @@ export default function RadioHelper() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-800 font-sans p-4 md:p-8 pb-24" style={{ lineHeight: 1.5 }}>
+    <div className="min-h-screen bg-slate-50 text-slate-800 font-sans p-4 md:p-8 pb-40" style={{ lineHeight: 1.5 }}>
       <Header
         onSettingsClick={() => setShowSettings(!showSettings)}
         onHistoryClick={() => setShowHistory(!showHistory)}
