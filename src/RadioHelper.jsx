@@ -432,7 +432,7 @@ export default function RadioHelper() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-800 font-sans p-4 md:p-8 pb-40" style={{ lineHeight: 1.5 }}>
+    <div className="min-h-screen bg-slate-50 text-slate-800 font-sans p-4 md:p-8 pb-64" style={{ lineHeight: 1.5 }}>
       <Header
         onSettingsClick={() => setShowSettings(!showSettings)}
         onHistoryClick={() => setShowHistory(!showHistory)}
@@ -461,7 +461,7 @@ export default function RadioHelper() {
         />
       )}
 
-      <main className="max-w-6xl mx-auto space-y-12 md:space-y-20">
+      <main className="max-w-6xl mx-auto space-y-12 md:space-y-20 pb-16">
         {/* REFORMULATION SECTION */}
         <section className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
           <div className="bg-blue-50/50 p-4 border-b border-blue-100 flex items-center gap-2">
