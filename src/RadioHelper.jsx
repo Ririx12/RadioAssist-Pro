@@ -422,8 +422,7 @@ export default function RadioHelper() {
       return;
     }
 
-    const disclaimer = '⚠️ AVERTISSEMENT: Contenu généré par IA - Vérification médicale requise\n\n';
-    const textToCopy = `${disclaimer}Indication:\n${indicationOutput || '(Indication manquante)'}\n\nTechnique:\n${
+    const textToCopy = `Indication:\n${indicationOutput || '(Indication manquante)'}\n\nTechnique:\n${
       protocolOutput || '(Protocole manquant)'
     }`;
     copyToClipboard(textToCopy);
