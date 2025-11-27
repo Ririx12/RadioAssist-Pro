@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(move src-index.css srcindex.css)",
+      "Bash(move:*)",
+      "Bash(move src-RadioHelper.jsx srcRadioHelper.jsx)",
+      "Bash(npm run build:*)",
+      "Bash(npm install)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
